@@ -7,15 +7,21 @@ const WalletLink = window.WalletLink;
 const Torus = window.Torus;
 
 export const INFURAID = '172bcbd122234ed19a83403ae5205f97';
-export const networkID = '0x3';
-export const networkName = 'ropsten';
-const mintContract = '0xa783b87423cf3e8262f5b121da614c12a40d00ae';
-export const explorerURL = 'https://ropsten.etherscan.io/tx/';
+// export const networkID = '0x3';
+// export const networkName = 'ropsten';
+// const mintContract = '0xa783b87423cf3e8262f5b121da614c12a40d00ae';
+// export const explorerURL = 'https://ropsten.etherscan.io/tx/';
 
-// export const network = '0x89';
+// export const networkID = '0x89';
 // export const networkName = 'matic';
 // const mintContract = '0xc78dea3cc2603796b04bd3c666a9a902a28ea141';
 // export const explorerURL = 'https://polygonscan.com/tx';
+
+export const networkID = '0x4';
+export const networkName = 'rinkeby';
+const mintContract = '0xdc11dc12305c979368ce36f04384a27b4105940b';
+export const explorerURL = 'https://rinkeby.etherscan.io/tx/';
+
 
 const providerOptions = {
   injected: {
