@@ -17,10 +17,15 @@ export const INFURAID = '172bcbd122234ed19a83403ae5205f97';
 // const mintContract = '0xc78dea3cc2603796b04bd3c666a9a902a28ea141';
 // export const explorerURL = 'https://polygonscan.com/tx';
 
-export const networkID = '0x4';
-export const networkName = 'rinkeby';
-const mintContract = '0xdc11dc12305c979368ce36f04384a27b4105940b';
-export const explorerURL = 'https://rinkeby.etherscan.io/tx/';
+// export const networkID = '0x4';
+// export const networkName = 'rinkeby';
+// const mintContract = '0xdc11dc12305c979368ce36f04384a27b4105940b';
+// export const explorerURL = 'https://rinkeby.etherscan.io/tx/';
+
+export const networkID = '0x1';
+export const networkName = 'homestead';
+const mintContract = '0x83d3350e49dd8bf66b088454e63e21f2bc778f1b';
+export const explorerURL = 'https://etherscan.io/tx/';
 
 
 const providerOptions = {

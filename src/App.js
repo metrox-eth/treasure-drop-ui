@@ -85,6 +85,7 @@ function App() {
                   <input className='p-6 bg-slate-100 w-80 m-6' type="text"
                     placeholder="0x0000000000000000000000000000000000"
                     onChange={onMintCodeChange}
+                    disabled={!correctNetwork}
                   />
                   <div className='absolute w-full'>
                     {state.transactionStatus && (
